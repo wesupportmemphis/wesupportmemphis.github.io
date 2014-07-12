@@ -90,7 +90,7 @@ $(document).ready(function () {
         }
     });
     userFeed.run();
-
+    $('#now-loading').remove();
     $('#load-more-button').click(function (e) {
     	e.preventDefault();
     	userFeed.next();
